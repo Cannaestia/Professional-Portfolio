@@ -8,7 +8,16 @@
     height: 200px;
     width: 100%;
     margin-bottom: 10px;
-    background-image: url(..images/Shutterstock_1092234560.jpg);
+    
     background-size: cover;
     background-position: center;
+}
+
+h3 {
+    width: 15%;
+    background-color: aqua;
+    padding: 7px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }

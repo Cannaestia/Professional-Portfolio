@@ -1,0 +1,14 @@
+* {
+    box-sizing: boarder-box;
+    padding: 0;
+    margin: 0;
+}
+
+.cool {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-image: url(..images/Shutterstock_1092234560.jpg);
+    background-size: cover;
+    background-position: center;
+}

@@ -58,3 +58,13 @@ a {
     text-decoration: none;
     
 }
+
+.vl {
+  border-right: 6px solid #0096FF;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  
+  top: 0;
+        }
+    

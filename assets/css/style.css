@@ -2,13 +2,12 @@
     box-sizing: boarder-box;
     padding: 0;
     margin: 0;
-    
+
 }
 
 .cool {
     height: 300px;
     width: 100%;
-    margin-bottom: 10px;
     background-image: url("../images/shutterstock_531156589.jpg");
     background-size: cover;
     background-position: center;
@@ -26,23 +25,30 @@ h3 {
     bottom: 75px;
 }
 
-header h1 {
-   display: inline-block;
-   font-size: 30px;
-   background-color: #0096FF;
-   color: aliceblue;
-   margin-top: 7px;
-   padding: 10px 10px 10px 10px;
-    
+header {
+    height: 100%;
+    background-color: #5800FF;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 30px;
+    background-color: #0096FF;
+    color: aliceblue;
+    margin-top: 7px;
+    margin-left: 7px;
+    padding: 10px;
+
 }
 
 nav {
     position: relative;
     font-size: 20px;
     right: 50px;
+    top: 25px;
     float: right;
-    
-    
+
+
 }
 
 header {
@@ -54,17 +60,136 @@ header {
 }
 
 a {
-    color:aliceblue;
+    color: aliceblue;
     text-decoration: none;
-    
+
 }
 
-.vl {
-  border-right: 6px solid #0096FF;
-  height: 500px;
-  position: absolute;
-  left: 50%;
-  
-  top: 0;
-        }
-    
+p {
+    position: relative;
+    width: 80%;
+    left: 100px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+
+#landing-content {
+    background-color: whitesmoke;
+
+}
+
+.small-image {
+    height: 400px;
+}
+
+#bio-container {
+    padding-left: 10%;
+    position: relative;
+    bottom: 1100px
+}
+
+
+#portrait {
+    position: relative;
+    left: 620px;
+
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+    margin-left: 140px;
+
+}
+
+.experience {
+    position: relative;
+    left: 410px;
+    height: 100%;
+    width: 1000px;
+    bottom: 900px;
+
+
+}
+
+.small-image {
+    position: relative;
+    display: flex;
+    justify-content: row;
+    left: 115px;
+
+
+}
+
+.git-hub {
+    position: relative;
+    margin: 20px;
+    bottom: 900px;
+    width: 375px;
+    height: 300px;
+    left: 420px;
+}
+
+.tik-tok {
+    position: relative;
+    width: 375px;
+    height: 300px;
+    bottom: 900px;
+    margin: 20px;
+    left: 420px;
+
+}
+
+
+
+aside h2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container {
+    position: relative;
+    border-right: 2px solid #0096FF;
+    height: 500px;
+    width: 200px;
+    top: 50px;
+    font-size: 25px;
+
+}
+
+
+.aside-work {
+    position: relative;
+    border-right: 2px solid #0096FF;
+    width: 200px;
+    height: 700px;
+    top: 200px;
+    font-size: 25px;
+}
+
+
+
+
+footer {
+    background-color: #5800FF;
+    height: 80px;
+
+}
+
+#Contact {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    padding-top: 15px;
+
+}
